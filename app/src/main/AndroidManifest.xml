@@ -19,23 +19,23 @@
         <activity
             android:name=".base.activitys.CollectionActivity"
             android:label="Collection"
-            android:parentActivityName=".base.activitys.MainActivity"/>
+            android:parentActivityName=".base.activitys.MainActivity" />
         <activity
             android:name=".base.activitys.MissionsActivity"
             android:label="Missions"
-            android:parentActivityName=".base.activitys.MainActivity"/>
+            android:parentActivityName=".base.activitys.MainActivity" />
         <activity
             android:name=".base.activitys.ModeActivity"
             android:label="Game Mode"
-            android:parentActivityName=".base.activitys.MainActivity"/>
+            android:parentActivityName=".base.activitys.MainActivity" />
         <activity
             android:name=".base.activitys.SettingsActivity"
             android:label="Settings"
-            android:parentActivityName=".base.activitys.MainActivity"/>
+            android:parentActivityName=".base.activitys.MainActivity" />
         <activity
             android:name=".base.activitys.ShopActivity"
             android:label="Shop"
-            android:parentActivityName=".base.activitys.MainActivity"/>
+            android:parentActivityName=".base.activitys.MainActivity" />
     </application>
 
 </manifest>

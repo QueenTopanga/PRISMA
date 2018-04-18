@@ -2,6 +2,7 @@ package com.queen.topanga.prisma.base.activitys;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.preference.PreferenceActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
@@ -12,7 +13,7 @@ public class SettingsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.settings_activity);
     }
 
     //BOTONES MENU---------------------------------------------------------------
@@ -44,5 +45,20 @@ public class SettingsActivity extends AppCompatActivity {
     public void openmode(View view) {
         Intent show = new Intent(this, ModeActivity.class);
         startActivity(show);
+    }
+
+
+
+    //Funciones de opciones-------------------------------------------------------
+    public void autonivelado(View view) {
+        //autonivelar on off
+    }
+
+    public void sonido(View view) {
+        //sonido on off
+    }
+
+    public void animaciones(View view) {
+        //animaciones on off
     }
 }

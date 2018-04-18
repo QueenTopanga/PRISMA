@@ -12,43 +12,45 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:padding="5dp"
+        android:padding="10dp"
         android:weightSum="3"
         app:layout_constraintStart_toStartOf="parent">
 
         <ImageView
             android:layout_width="20dp"
             android:layout_height="20dp"
+            android:background="@color/colorPrimaryDark"
+            app:srcCompat="@drawable/ic_monetization_on_black_24px" />
 
-            android:src="@drawable/ic_monetization_on_black_24px"
-            android:background="@color/colorPrimaryDark"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nivel: 12"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:text="Nivel: 12" />
 
         <ImageView
             android:layout_width="20dp"
             android:layout_height="20dp"
-            android:src="@drawable/ic_monetization_on_black_24px"
-            android:background="@color/colorPrimaryDark"/>
+            android:background="@color/colorPrimaryDark"
+            app:srcCompat="@drawable/ic_monetization_on_black_24px" />
+
         <TextView
-            android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Moneda: 999.999"/>
+            android:layout_weight="1"
+            android:text="Moneda: 999.999" />
 
         <ImageView
             android:layout_width="20dp"
             android:layout_height="20dp"
-            android:src="@drawable/ic_monetization_on_black_24px"
-            android:background="@color/colorPrimaryDark"/>
+            android:background="@color/colorPrimaryDark"
+            app:srcCompat="@drawable/ic_monetization_on_black_24px" />
+
         <TextView
-            android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Dinero: 000.000"/>
+            android:layout_weight="1"
+            android:text="Dinero: 000.000" />
 
     </LinearLayout>
 
@@ -128,7 +130,7 @@
         android:background="@color/colorDarkness"
         android:onClick="openmode"
         android:padding="20dp"
-        android:src="@drawable/ic_brightness_7_black_24px"
+        app:srcCompat="@drawable/ic_brightness_7_black_24px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -150,7 +152,7 @@
             android:layout_weight="1"
             android:background="@color/colorPrimaryLight"
             android:minHeight="80dp"
-            android:src="@drawable/ic_navigation_blue_48px" />
+            app:srcCompat="@drawable/ic_navigation_blue_48px" />
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -159,7 +161,7 @@
             android:layout_weight="1"
             android:background="@color/colorPrimaryLight"
             android:minHeight="80dp"
-            android:src="@drawable/ic_navigation_green_48px" />
+            app:srcCompat="@drawable/ic_navigation_green_48px" />
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -168,7 +170,7 @@
             android:layout_weight="1"
             android:background="@color/colorPrimaryLight"
             android:minHeight="80dp"
-            android:src="@drawable/ic_navigation_red_48px" />
+            app:srcCompat="@drawable/ic_navigation_red_48px" />
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -177,7 +179,7 @@
             android:layout_weight="1"
             android:background="@color/colorPrimaryLight"
             android:minHeight="80dp"
-            android:src="@drawable/ic_navigation_orange_48px" />
+            app:srcCompat="@drawable/ic_navigation_orange_48px" />
 
 
     </LinearLayout>
@@ -198,7 +200,7 @@
             android:background="@color/colorPrimaryDark"
             android:minHeight="64dp"
             android:onClick="openmissions"
-            android:src="@drawable/ic_view_column_black_24px" />
+            app:srcCompat="@drawable/ic_view_column_black_24px" />
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -208,7 +210,7 @@
             android:background="@color/colorPrimaryDark"
             android:minHeight="64dp"
             android:onClick="opencollection"
-            android:src="@drawable/ic_apps_black_24px" />
+            app:srcCompat="@drawable/ic_apps_black_24px" />
 
 
         <ImageButton
@@ -219,7 +221,7 @@
             android:background="@color/colorPrimaryDark"
             android:minHeight="64dp"
             android:onClick="openmain"
-            android:src="@drawable/ic_all_inclusive_black_24px" />
+            app:srcCompat="@drawable/ic_all_inclusive_black_24px" />
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -229,7 +231,7 @@
             android:background="@color/colorPrimaryDark"
             android:minHeight="64dp"
             android:onClick="openshop"
-            android:src="@drawable/ic_monetization_on_black_24px" />
+            app:srcCompat="@drawable/ic_monetization_on_black_24px" />
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -239,7 +241,7 @@
             android:background="@color/colorPrimaryDark"
             android:minHeight="64dp"
             android:onClick="opensettings"
-            android:src="@drawable/ic_settings_black_24px" />
+            app:srcCompat="@drawable/ic_settings_black_24px" />
 
     </LinearLayout>
 
